@@ -17,24 +17,24 @@ export const cards = [
 export const cards = [
   {
     "name": "Scalable Oversight",
-    "definition": "xxx",
-    "failureMode": "xxx",
-    "example": "xxx"
+    "definition": "Refers to the notion of being able to continuously monitor a system's performance to reinforce positive and punish negative actions."
+    "failureMode": "Problems with this occur when the loss function may be too expensive computationally- or time-wise to evaluate, causing the system to fail when extrapolation is needed.",",
+    "example": "When a chatbot spews out racist remarks ever so often because its responses cannot be manually checked by a human every time."
   },
 ];
 export const cards = [
   {
     "name": "Safe Exploration",
-    "definition": "xxx",
-    "failureMode": "xxx",
-    "example": "xxx"
+    "definition": "Refers to the notion of being able to allow systems to learn from their environment without causing significant disruptions that outweigh the model's future benefit.",
+    "failureMode": "Problems with this occur when a system has been allowed to explore its environment, but makes a big mistake in the learning process.",
+    "example": "When a code-writing AI model is learning to monitor consumer reactions in response to UI changes, and it pushes a bug that deletes the entire codebase."
   },                                             
 ];
 export const cards = [
   {
     "name": "Robustness to Distributional Shift",
-    "definition": "xxx",
-    "failureMode": "xxx",
-    "example": "xxx"
+    "definition": "Refers to the notion of a model being able to make decent decisions when presented with scenarios outside of its training data.",
+    "failureMode": "When a model makes a bad decisions due to lack of information about this scenario in the training set",
+    "example": "When a sheep-herding AI model comes across a stray bull and attempts to herd the bull in addition to the sheep."
   },                                             
 ];
