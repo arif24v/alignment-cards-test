@@ -13,7 +13,7 @@ export const cards = [
   },            
   {
     "name": "Scalable Oversight",
-    "definition": "Refers to the notion of being able to continuously monitor a system's performance to reinforce positive and punish negative actions."
+    "definition": "Refers to the notion of being able to continuously monitor a system's performance to reinforce positive and punish negative actions.",
     "failureMode": "Problems with this occur when the loss function may be too expensive computationally- or time-wise to evaluate, causing the system to fail when extrapolation is needed.",
     "example": "When a chatbot spews out racist remarks ever so often because its responses cannot be manually checked by a human every time."
   },
